@@ -6,3 +6,6 @@ git pull
 git add .
 git commit -m "parte 1 y 2"
 git push
+git add .
+git commit -m "parte 3"
+git push
