@@ -25,3 +25,116 @@
     height: 50%;
     
   }
+  
+
+@media(max-width:520px){
+  *{
+    box-sizing: border-box;
+}
+  .box{
+    background-color: rgb(147, 204, 228);
+  }
+  .topRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottomRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width:521px) and (max-width:900px){
+  
+  .box{
+    background-color: white;
+  }
+  .topRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .bottomRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #topLeft{
+    margin-right: 50%;
+  }
+  #bottomLeft{
+    margin-right: 50%;
+  }
+
+  
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    width: 500px;
+  }
+}
+
+
+@media (min-width:901px){
+  
+  .box{
+    background-color: white;
+  }
+  .topRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .bottomRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #topLeft{
+    margin-right: 50%;
+  }
+  #bottomLeft{
+    margin-right: 50%;
+  }
+
+  
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    width: 500px;
+    background-color: rgb(52, 255, 252);
+  }
+}
