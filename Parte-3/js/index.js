@@ -11,9 +11,8 @@ form.addEventListener("submit",(event)=>{
     console.log(name.value)
     name = names[0];
     let comment = document.getElementById("userComment");
-    if(name.value!=""&&comment!=""){
+    if(name.value!=""&&comment.value!=""){
         let newComment = document.createElement("p");
-        let newName = document.createElement("h3");
         let newContent = document.createElement("p");
 
         newComment.innerHTML+="<p><h3>" + name.value + "</h3></p><p>" + comment.value + "</p>";
